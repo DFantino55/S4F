@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+}
+/* Begin CSS Code Navbar*/
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #0047AB;
+    float: left;
+    margin-bottom: 35px;
+    
+}
+nav p {
+    font-family: arial;
+    color: #dbdbdb;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+}
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: Arial;
+    color: #dbdbdb;
+    font-size: 14px;
+    padding: 24px 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 3px solid #0047AB;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;   
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+
+}
+nav ul li ul li a {
+    padding: 8px 14px;
+    color: black;  
+}
+nav ul li ul li a:hover {
+    background-color: #0047AB;
+    color: white;
+}
+/* End CSS Code Navbar*/
+/* Begin CSS Code Main*/
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+overflow-x:hidden;
+font-family:'PT Sans', sans-serif;
+}
+main {
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+section{
+    margin-bottom: 35px;
+}
+.section {
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0; 
+display: flex;
+flex-wrap: wrap;
+border: solid 5px transparent;
+margin-top: 0px;
+}
+.section .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+.section .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.section .columns.content .text
+{
+padding:20px 30px;
+}
+.section .columns.content .text h5
+{
+font-weight:700;
+font-size:25px;
+margin-bottom:30px;
+}
+.section .columns.content .text p
+{
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+@media only screen and (max-width:900px)
+{
+
+.sections
+{
+flex-flow:row wrap;
+}
+.section .columns.image{
+display:block;
+order:1;
+width:100%;
+height:250px;
+}
+.section .columns.content
+{
+display:block;
+order:2;
+width:100%;
+}
+.section .columns.content .text
+{
+padding:20px 35px;
+}
+.section .columns.content .text h5
+{
+margin-bottom:5px;
+}
+}
+/* End CSS Code Main*/
+/* Begin CSS Code Footer*/
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+/* Ende CSS Code Footer*/
